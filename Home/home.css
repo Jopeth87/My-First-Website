@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
+
+*{
+    background-color: black;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header{
+    font-family: "Lobster", sans-serif;
+    background-color: black;
+    color: beige;
+    position: static;
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+   
+}
+
+.navbar a {
+    font size: 20px;
+    font family: Lucida;
+    color: black;
+    text-align: :left;
+}
+
+ul {
+    list-style: none;
+    margin-right: 0px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    margin-right: 50px;
+    display: inline;
+    float: right;
+}
+
+li a:hover {
+    background-color: gold;
+}
+
+li a {
+    display: block;
+    padding: 15px 16px;
+    border-radius: 20px;
+    background-color: beige;
+  }
+
+.image {
+    height: 85px;
+}
+
+.image img{
+    border-radius: 100px;
+}
+
+.main-content{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    color: gold;
+    align-items: center;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 80px;
+    padding-top: 0;
+  
+}
+
+h1 {
+    font-family: "Courgette", cursive;
+}
+
+p{
+    color: beige;
+    font-family: Verdana;
+    font-size: 20px;
+    letter-spacing: normal;
+}
